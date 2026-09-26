@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/taiwan-companies",
   "title": "Taiwan Companies",
   "description": "Taiwan's statutory company register: every incorporated company, its 統一編號, capital, registered…",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/taiwan-companies",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-taiwan-companies",
