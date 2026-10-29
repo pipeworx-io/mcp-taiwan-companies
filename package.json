@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-taiwan-companies",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Taiwan's statutory company register: every incorporated company, its 統一編號, capital, registered address and current legal standing, from the Ministry of Economic Affairs.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-taiwan-companies": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "taiwan-companies"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-taiwan-companies.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/taiwan-companies",
   "pipeworx": {
-    "sourceHash": "v1-1cd315956d95d831b524a574d7c8e7823e458f2c392e5073bb7adf6a2142500b",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "taiwan-companies",
+    "gatewaySlug": "taiwan-companies",
+    "sourceHash": "v1-4dc6333a0bf0c4edf5c57f39581b8c52fca0127f3b4f429e9b7dc2bc9501bdd8",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
