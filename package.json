@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-taiwan-companies",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Taiwan's statutory company register: every incorporated company, its 統一編號, capital, registered address and current legal standing, from the Ministry of Economic Affairs.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "taiwan-companies",
     "gatewaySlug": "taiwan-companies",
-    "sourceHash": "v1-4dc6333a0bf0c4edf5c57f39581b8c52fca0127f3b4f429e9b7dc2bc9501bdd8",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-1057a56dbc5a1633f954fe7b0040c6e4a57cf23601d9312de6e7bea46e33d158",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
